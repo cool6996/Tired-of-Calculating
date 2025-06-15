@@ -1,1 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>EMI Calculator</title>
+  <meta name="description" content="Quickly calculate your monthly EMI with this easy-to-use EMI calculator.">
+  <meta name="keywords" content="EMI calculator, loan, monthly installment, interest rate, principal">
+  <meta name="author" content="Tired of Calculating">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>EMI Calculator</h1>
+    <label for="principal">Loan Amount (₹)</label>
+    <input type="number" id="principal" placeholder="Enter principal amount" />
 
+    <label for="rate">Interest Rate (%)</label>
+    <input type="number" id="rate" placeholder="Enter annual interest rate" />
+
+    <label for="tenure">Loan Tenure (months)</label>
+    <input type="number" id="tenure" placeholder="Enter tenure in months" />
+
+    <button onclick="calculateEMI()">Calculate EMI</button>
+
+    <div id="result"></div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
