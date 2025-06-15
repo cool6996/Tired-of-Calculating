@@ -1,29 +1,33 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="description" content="All-in-one online calculator hub — GPA, BMI, Age, Calorie, EMI, and more. Easy and fast.">
-  <meta name="keywords" content="GPA calculator, BMI calculator, age calculator, calorie calculator, online calculator, percentage, CGPA, EMI">
-  <meta name="robots" content="index, follow">
-  <meta name="author" content="Tired of Calculating">
-  <title>Tired of Calculating</title>
-  <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <title>GPA Calculator – Tired of Calculating</title>
+  <meta name="description" content="Calculate your GPA easily using our accurate and fast GPA calculator. Perfect for students and professionals." />
+  <meta name="keywords" content="GPA calculator, grade calculator, education tools, academic calculator, cgpa" />
+  <meta name="author" content="Tired of Calculating" />
+  <meta property="og:title" content="GPA Calculator – Tired of Calculating" />
+  <meta property="og:description" content="Fast and simple GPA calculator for students. Try it now!" />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://tired-of-calculating.netlify.app/gpa" />
+  <meta property="og:image" content="https://tired-of-calculating.netlify.app/assets/gpa-preview.png" />
+  <link rel="stylesheet" href="style.css" />
 </head>
   
 <body>
-  <h1>🧠 Tired of Calculating?</h1>
-  <p>Select a calculator below:</p>
-  <div class="grid">
-    <a href="/gpa-calc/index.html" class="card">GPA Calculator</a>
-    <a href="/cgpa-calc/index.html" class="card">CGPA Calculator</a>
-    <a href="/bmi-calc/index.html" class="card">BMI Calculator</a>
-    <a href="/age-calc/index.html" class="card">Age Calculator</a>
-    <a href="/percentage-calc/index.html" class="card">Percentage Calculator</a>
-    <a href="/si-calc/index.html" class="card">Simple Interest</a>
-    <a href="/ci-calc/index.html" class="card">Compound Interest</a>
-    <a href="/emi-calc/index.html" class="card">EMI Calculator</a>
-    <a href="/calorie-calc/index.html" class="card">Calorie Calculator</a>
+  <div class="container">
+    <h1>GPA Calculator</h1>
+    <form id="gpa-form">
+      <label for="grades">Enter your grades (e.g., A1 B2 C1 A2):</label>
+      <input type="text" id="grades" name="grades" required />
+      <button type="submit">Calculate GPA</button>
+    </form>
+    <p id="result"></p>
+    <a href="../index.html">← Back to Home</a>
   </div>
+
+  <script src="script.js"></script>
 </body>
-  
 </html>
