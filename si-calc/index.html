@@ -1,1 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Simple Interest Calculator</title>
+  <meta name="description" content="Calculate simple interest easily using this free online calculator. Just enter principal, rate, and time.">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>Simple Interest Calculator</h1>
+    <label>Principal (₹):</label>
+    <input type="number" id="principal" placeholder="Enter principal amount" />
+
+    <label>Rate of Interest (% per annum):</label>
+    <input type="number" id="rate" placeholder="Enter interest rate" />
+
+    <label>Time (in years):</label>
+    <input type="number" id="time" placeholder="Enter time in years" />
+
+    <button onclick="calculateSI()">Calculate</button>
+
+    <div id="result"></div>
+  </div>
+
+  <script>
+    function calculateSI() {
+      const principal = parseFloat(document.getElementById("principal").value);
+      const rate = parseFloat(document.getElementById("rate").value);
+      const time = parseFloat(document.getElementById("time").value);
+
+      if (isNaN(principal) || isNaN(rate) || isNaN(time)) {
+        document.getElementById("result").innerText = "Please enter all values.";
+        return;
+      }
+
+      const si = (principal * rate * time) / 100;
+      document.getElementById("result").innerText = `Simple Interest: ₹${si.toFixed(2)}`;
+    }
+  </script>
+</body>
+</html>
 
