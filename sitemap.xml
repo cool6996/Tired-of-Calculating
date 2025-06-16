@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url>
+    <loc>https://tired-of-calculating.netlify.app/</loc>
+  </url>
+  <url>
+    <loc>https://tired-of-calculating.netlify.app/gpa</loc>
+  </url>
+  <url>
+    <loc>https://tired-of-calculating.netlify.app/bmi</loc>
+  </url>
+  <url>
+    <loc>https://tired-of-calculating.netlify.app/age</loc>
+  </url>
+  <url>
+    <loc>https://tired-of-calculating.netlify.app/percentage</loc>
+  </url>
+  <url>
+    <loc>https://tired-of-calculating.netlify.app/cgpa</loc>
+  </url>
+  <url>
+    <loc>https://tired-of-calculating.netlify.app/si</loc>
+  </url>
+  <url>
+    <loc>https://tired-of-calculating.netlify.app/ci</loc>
+  </url>
+  <url>
+    <loc>https://tired-of-calculating.netlify.app/calorie</loc>
+  </url>
+  <url>
+    <loc>https://tired-of-calculating.netlify.app/emi</loc>
+  </url>
+</urlset>
