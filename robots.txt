@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://tired-of-calculating.netlify.app/sitemap.xml
