@@ -1,32 +1,26 @@
  <!DOCTYPE html>
 <html lang="en">
 <head>
-    <!-- Google tag (gtag.js) -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-15579BPD4N"></script>
   <script>
     window.dataLayer = window.dataLayer || [];
     function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
-  
+    gtag('js', new Date()); 
     gtag('config', 'G-15579BPD4N');
   </script>
   <meta charset="UTF-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
   <title>Simple Interest Calculator | TOC</title>
-
   <meta name="description" content="Quickly calculate simple interest using our free tool. Clear results for your principal, rate, and time." />
   <meta name="keywords" content="simple interest calculator, interest calculator, TOC, Tired of Calculating" />
   <meta name="author" content="Tired of Calculating" />
   <meta name="robots" content="index, follow" />
-
-  <meta property="og:title" content="Simple Interest Calculator – Tired of Calculating" />
+  <meta property="og:title" content="Simple Interest Calculator – Tired of Calculating (TOC)" />
   <meta property="og:description" content="Find simple interest quickly and easily with this online tool from TOC." />
   <meta property="og:type" content="website" />
-  <meta property="og:url" content="https://tired-of-calculating.netlify.app/si" />
+  <meta property="og:url" content="https://tired-of-calculating.netlify.app/si-calc" />
   <meta property="og:image" content="https://tired-of-calculating.netlify.app/assets/si-preview.png" />
-
   <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
   <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
   <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
@@ -36,30 +30,22 @@
   <meta name="msapplication-TileColor" content="#ffffff">
   <meta name="msapplication-TileImage" content="android-chrome-192x192.png">
   <meta name="application-name" content="Tired of Calculating (TOC)">
-
   <link rel="canonical" href="https://tired-of-calculating.netlify.app/si-calc/" />
   <link rel="stylesheet" href="style.css" />
   <link rel="manifest" href="/site.webmanifest" />
-</head>
- 
+</head> 
 <body>
   <div class="container">
     <h1>Simple Interest Calculator</h1>
     <label>Principal (₹):</label>
     <input type="number" id="principal" placeholder="Enter principal amount" />
-
     <label>Rate of Interest (% per annum):</label>
     <input type="number" id="rate" placeholder="Enter interest rate" />
-
     <label>Time (in years):</label>
     <input type="number" id="time" placeholder="Enter time in years" />
-
     <button onclick="calculateSI()">Calculate</button>
-
     <div id="result"></div>
-  </div>
-  
+  </div>  
   <script src="script.js"></script>
 </body>
 </html>
-
