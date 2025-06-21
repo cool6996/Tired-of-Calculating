@@ -1,42 +1,34 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <!-- Google tag (gtag.js) -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-15579BPD4N"></script>
   <script>
     window.dataLayer = window.dataLayer || [];
     function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
-  
+    gtag('js', new Date()); 
     gtag('config', 'G-15579BPD4N');
   </script>
   <meta charset="UTF-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
   <title>EMI Calculator | TOC</title>
-
   <meta name="description" content="Plan your loan payments with our accurate EMI calculator. Know your monthly payments in seconds." />
   <meta name="keywords" content="emi calculator, loan calculator, interest calculator, TOC, Tired of Calculating" />
   <meta name="author" content="Tired of Calculating" />
   <meta name="robots" content="index, follow" />
-
-  <meta property="og:title" content="EMI Calculator – Tired of Calculating" />
+  <meta property="og:title" content="EMI Calculator – Tired of Calculating (TOC)" />
   <meta property="og:description" content="Find out your monthly loan EMI quickly with this easy online tool from TOC." />
   <meta property="og:type" content="website" />
-  <meta property="og:url" content="https://tired-of-calculating.netlify.app/emi" />
+  <meta property="og:url" content="https://tired-of-calculating.netlify.app/emi-calc" />
   <meta property="og:image" content="https://tired-of-calculating.netlify.app/assets/emi-preview.png" />
-
   <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
   <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
   <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
-  <link rel="manifest" href="site.webmanifest">
   <link rel="shortcut icon" href="favicon.ico">
   <meta name="theme-color" content="#ffffff">
   <meta name="msapplication-TileColor" content="#ffffff">
   <meta name="msapplication-TileImage" content="android-chrome-192x192.png">
   <meta name="application-name" content="Tired of Calculating (TOC)">
-
   <link rel="canonical" href="https://tired-of-calculating.netlify.app/emi-calc/" />
   <link rel="stylesheet" href="style.css" />
   <link rel="manifest" href="/site.webmanifest" />
@@ -46,15 +38,11 @@
     <h1>EMI Calculator</h1>
     <label for="principal">Loan Amount (₹)</label>
     <input type="number" id="principal" placeholder="Enter principal amount" />
-
     <label for="rate">Interest Rate (%)</label>
     <input type="number" id="rate" placeholder="Enter annual interest rate" />
-
     <label for="tenure">Loan Tenure (months)</label>
     <input type="number" id="tenure" placeholder="Enter tenure in months" />
-
     <button onclick="calculateEMI()">Calculate EMI</button>
-
     <div id="result"></div>
   </div>
   <script src="script.js"></script>
