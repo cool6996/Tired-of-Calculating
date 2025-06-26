@@ -59,7 +59,7 @@ button:hover {
   font-weight: bold;
 }
 
-.privacy-policy {
+.privacy {
   position: fixed;
   bottom: 10px;
   right: 10px;
@@ -69,6 +69,6 @@ button:hover {
   z-index: 999;
 }
 
-.privacy-policy:hover {
+.privacy:hover {
   color: #000;
 }
