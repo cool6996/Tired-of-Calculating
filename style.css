@@ -33,7 +33,7 @@ h1 {
   transform: translateY(-3px);
 }
 
-.privacy-policy {
+.privacy {
   position: fixed;
   bottom: 10px;
   right: 10px;
@@ -43,6 +43,6 @@ h1 {
   z-index: 999;
 }
 
-.privacy-policy:hover {
+.privacy:hover {
   color: #000;
 }
