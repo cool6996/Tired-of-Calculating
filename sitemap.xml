@@ -2,62 +2,35 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://tired-of-calculating.netlify.app/</loc>
-    <lastmod>2025-06-16</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://tired-of-calculating.netlify.app/gpa-calc</loc>
-    <lastmod>2025-06-16</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
+    <loc>https://tired-of-calculating.netlify.app/gpa-calc/index.html</loc>
   </url>
   <url>
-    <loc>https://tired-of-calculating.netlify.app/cgpa-calc</loc>
-    <lastmod>2025-06-16</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
+    <loc>https://tired-of-calculating.netlify.app/cgpa-calc/index.html</loc>
   </url>
   <url>
-    <loc>https://tired-of-calculating.netlify.app/bmi-calc</loc>
-    <lastmod>2025-06-16</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
+    <loc>https://tired-of-calculating.netlify.app/bmi-calc/index.html</loc>
   </url>
   <url>
-    <loc>https://tired-of-calculating.netlify.app/age-calc</loc>
-    <lastmod>2025-06-16</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
+    <loc>https://tired-of-calculating.netlify.app/age-calc/index.html</loc>
   </url>
   <url>
-    <loc>https://tired-of-calculating.netlify.app/percentage-calc</loc>
-    <lastmod>2025-06-16</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
+    <loc>https://tired-of-calculating.netlify.app/percentage-calc/index.html</loc>
   </url>
   <url>
-    <loc>https://tired-of-calculating.netlify.app/si-calc</loc>
-    <lastmod>2025-06-16</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
+    <loc>https://tired-of-calculating.netlify.app/si-calc/index.html</loc>
   </url>
   <url>
-    <loc>https://tired-of-calculating.netlify.app/ci-calc</loc>
-    <lastmod>2025-06-16</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
+    <loc>https://tired-of-calculating.netlify.app/ci-calc/index.html</loc>
   </url>
   <url>
-    <loc>https://tired-of-calculating.netlify.app/emi-calc</loc>
-    <lastmod>2025-06-16</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
+    <loc>https://tired-of-calculating.netlify.app/emi-calc/index.html</loc>
   </url>
   <url>
-    <loc>https://tired-of-calculating.netlify.app/calorie-calc</loc>
-    <lastmod>2025-06-16</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
+    <loc>https://tired-of-calculating.netlify.app/calorie-calc/index.html</loc>
+  </url>
+  <url>
+    <loc>https://tired-of-calculating.netlify.app/privacy.html</loc>
   </url>
 </urlset>
