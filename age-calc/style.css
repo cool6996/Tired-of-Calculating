@@ -47,12 +47,6 @@ button {
   cursor: pointer;
 }
 
-.center-button {
-  display: flex;
-  justify-content: center;
-  margin-top: 10px;
-}
-
 button:hover {
   background-color: #005fa3;
 }
