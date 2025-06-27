@@ -22,7 +22,7 @@ h1 {
 
 label {
   display: block;
-  margin-bottom: 8px;
+  margin-bottom: 10px;
   font-size: 16px;
 }
 
@@ -44,7 +44,7 @@ button {
   font-size: 16px;
   border-radius: 6px;
   cursor: pointer;
-  margin-top: 10px;
+  margin-top: 15px;
 }
 
 button:hover {
